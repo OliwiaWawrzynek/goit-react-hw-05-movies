@@ -1,0 +1,23 @@
+.nav {
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid pink;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.list {
+    display: flex;
+}
+
+.listItem {
+    padding: 25px;
+    font-weight: 700;
+    font-size: x-large;
+    list-style: none;
+}
+
+.active {
+    color: lightcoral;
+}

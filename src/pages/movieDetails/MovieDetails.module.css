@@ -1,0 +1,62 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px 20px 20px 20px;
+}
+
+.topContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.image {
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.textContainer {
+    margin: 20px;
+}
+
+.textContainer p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: lightcoral;
+}
+
+.bottomContainer {
+    margin-top: 20px;
+}
